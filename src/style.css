@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+
+  line-height: 1.6;
+  color: #333;
+  padding: 20px;
+  border-radius: 16px;
+
+  /* Background */
+  /* background-color: #000000; */
+  /* background: linear-gradient(to bottom right, #f0f8ff, #54afff); */
+  background-image: url("../assets/star-pibl.gif");
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: top left;
+}
+
+header {
+  padding: 10px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+section{
+  margin: 40px 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto; /* centers horizontally */
+  padding: 20px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/* Apply to all main containers */
+header, section, footer {
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 0 auto; /* centers horizontally */
+  padding: 20px;
+  background: #160016;
+  color: #e761bb;
+  margin-bottom: 20px;
+  outline: 3px solid #e761bb;
+}
+
+p {
+  color: #ffdcf3;
+}
+
+header a {
+  color: #ffdcf3;
+  text-decoration: none; /* optional: removes underline */
+}
+
+header a:hover {
+  text-decoration: underline; /* optional: underline on hover */
+}
+
+/* Background animation */
+/* .particles {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.particle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: white;
+  border-radius: 50%;
+  opacity: 1;
+
+  animation-name: floatUp;
+  animation-timing-function: steps(300);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-110vh);
+  }
+} */
