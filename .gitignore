@@ -6,6 +6,7 @@ _dist/
 dist/
 _site/
 output/
+backup/
 
 # OS files
 .DS_Store

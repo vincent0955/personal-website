@@ -8,9 +8,11 @@
 body {
 
   line-height: 1.6;
-  color: #333;
+  color: #ffdcf3;
   padding: 20px;
   border-radius: 16px;
+  line-height: 2;
+  margin-bottom: 12px;
 
   /* Background */
   /* background-color: #000000; */
@@ -53,64 +55,44 @@ footer {
 
 h1 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  margin-bottom: -12px;
 }
 
-/* Apply to all main containers */
+h3 {
+  color: #ffdcf3;
+  text-decoration: underline;
+
+}
+
 header, section, footer {
   border-radius: 12px;
   max-width: 700px;
   margin: 0 auto; /* centers horizontally */
-  padding: 20px;
+  padding: 25px;
   background: #160016;
   color: #e761bb;
   margin-bottom: 20px;
-  outline: 3px solid #e761bb;
 }
 
 p {
   color: #ffdcf3;
+  line-height: 1.4;
 }
 
-header a {
+a {
   color: #ffdcf3;
-  text-decoration: none; /* optional: removes underline */
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.center-links {
+  text-align: center;
 }
 
-header a:hover {
-  text-decoration: underline; /* optional: underline on hover */
+ul, ol {
+  margin-left: 1em;   /* or adjust as needed */
+  padding-left: 1em;  /* or adjust as needed */
 }
 
-/* Background animation */
-/* .particles {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: -1;
-  top: 0;
-  left: 0;
-}
-
-.particle {
-  position: absolute;
-  width: 6px;
-  height: 6px;
-  background: white;
-  border-radius: 50%;
-  opacity: 1;
-
-  animation-name: floatUp;
-  animation-timing-function: steps(300);
-  animation-iteration-count: infinite;
-  animation-fill-mode: forwards;
-}
-
-@keyframes floatUp {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-110vh);
-  }
-} */
