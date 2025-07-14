@@ -5,7 +5,7 @@ eleventyConfig.addPassthroughCopy("assets");
   return {
     dir: {
       input: "src",
-      output: "dist"
+      output: "_site"
     }
   };
 };
