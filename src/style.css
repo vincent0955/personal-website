@@ -13,11 +13,8 @@ body {
   border-radius: 16px;
   line-height: 2;
   margin-bottom: 12px;
-
-  /* Background */
-  /* background-color: #000000; */
-  /* background: linear-gradient(to bottom right, #f0f8ff, #54afff); */
-  background-image: url("../assets/star-pibl.gif");
+  background-color: #000;
+  background-image: url("../assets/star-pibl.png");
   background-size: auto;
   background-repeat: repeat;
   background-position: top left;
@@ -60,9 +57,7 @@ h1 {
 }
 
 h3 {
-  color: #ffdcf3;
-  text-decoration: underline;
-
+  color: #e761bb;
 }
 
 header, section, footer {
@@ -89,6 +84,11 @@ a:hover {
 }
 .center-links {
   text-align: center;
+}
+
+.colored-link {
+  color: #8400c2;
+  text-decoration: none;
 }
 
 ul, ol {
