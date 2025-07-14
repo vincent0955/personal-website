@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+
+  line-height: 1.6;
+  color: #ffdcf3;
+  padding: 20px;
+  border-radius: 16px;
+  line-height: 2;
+  margin-bottom: 12px;
+  background-color: #000;
+  background-image: url("assets/star-pibl.png");
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: top left;
+}
+
+header {
+  padding: 10px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+section{
+  margin: 40px 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto; /* centers horizontally */
+  padding: 20px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: -12px;
+}
+
+h3 {
+  color: #e761bb;
+}
+
+header, section, footer {
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 0 auto; /* centers horizontally */
+  padding: 25px;
+  background: #160016;
+  color: #e761bb;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #ffdcf3;
+  line-height: 1.4;
+}
+
+a {
+  color: #ffdcf3;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.center-links {
+  text-align: center;
+}
+
+.colored-link {
+  color: #8400c2;
+  text-decoration: none;
+}
+
+ul, ol {
+  margin-left: 1em;   /* or adjust as needed */
+  padding-left: 1em;  /* or adjust as needed */
+}
+
