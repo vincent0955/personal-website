@@ -43,7 +43,7 @@ footer {
 
 .container {
   max-width: 800px;
-  margin: 0 auto; /* centers horizontally */
+  margin: 0 auto;
   padding: 20px;
   background-color: white;
   border-radius: 16px;
@@ -63,7 +63,7 @@ h3 {
 header, section, footer {
   border-radius: 12px;
   max-width: 700px;
-  margin: 0 auto; /* centers horizontally */
+  margin: 0 auto;
   padding: 25px;
   background: #160016;
   color: #e761bb;
@@ -92,7 +92,7 @@ a:hover {
 }
 
 ul, ol {
-  margin-left: 1em;   /* or adjust as needed */
-  padding-left: 1em;  /* or adjust as needed */
+  margin-left: 1em;
+  padding-left: 1em;
 }
 
