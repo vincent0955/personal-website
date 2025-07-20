@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vincent0955/personal-website.git"
+    "url": "git+https://github.com/vincent0955/personal-website/vincent0955.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vincent0955/personal-website/issues"
+    "url": "https://github.com/vincent0955/personal-website/vincent0955.github.io/issues"
   },
-  "homepage": "https://github.com/vincent0955/personal-website#readme",
+  "homepage": "https://github.com/vincent0955/personal-website/vincent0955.github.io#readme",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.1"
   }

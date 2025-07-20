@@ -7,8 +7,11 @@
     <title>{{ title }}</title>
     <link rel="stylesheet" href="../style.css">
 </head>
-<body>
-    {{ content | safe }}
+<body class="content-body">
+    <section class="content-section">
+        <a href="/" style="font-style: italic;" >home /</a>
+        {{ content | safe }}
+    </section>
 </body>
-
+<script src="../snow.js"></script>
 </html>
